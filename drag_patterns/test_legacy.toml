@@ -1,0 +1,26 @@
+#
+#Author: QyInvoLing
+#Date: 2023-03-21 15:21:09
+#LastEditors: QyInvoLing
+#LastEditTime: 2023-03-21 17:24:42
+#FilePath: \FPShelper\resources\drag_patterns\cfhd_galil_legacy.toml
+#Description: 
+#
+#
+#
+
+
+#单纯拉下和回弹，版本号为legacy_dragonly；带图案，版本号为2
+version = "legacy_dragonly"
+[legacy_dragonly]
+dy=5
+sleep=4
+back = false
+k = 1.1
+#我不知道是先不压后压安全，还是先压后不压安全。
+#是否只压部分（先不压后压/先压后不压）
+partial = true
+#是否为先压后不压
+drag_in_former_part = true
+#指进行到多少步就停止，或者从多少步才开始
+limit = 30
